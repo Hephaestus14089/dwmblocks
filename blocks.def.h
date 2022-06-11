@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/		/*Command*/	       				/*Update Interval*/	/*Update Signal*/
 	{" Mem: ", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",		10,			0},
 
-	{"Bat: ", "~/Projects/dwmblocks/batterystatus.out",                     	10,     	        0},
+	{"Bat: ", "~/Projects/dwmblocks/batterystatus.o",                     	10,     	        0},
 
 	{"", "date '+%a, %b %d | %I:%M%p '",						10,			0},
 };
