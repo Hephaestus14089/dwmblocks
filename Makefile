@@ -5,6 +5,7 @@ LDFLAGS = -lX11
 output: dwmblocks.c blocks.def.h blocks.h
 	${CC}  dwmblocks.c $(LDFLAGS) -o dwmblocks
 	$(CC)  batterystatus.c -o batterystatus.o
+	$(CC)  brightnessstatus.c -o brightnessstatus.o
 blocks.h:
 	cp blocks.def.h $@
 
